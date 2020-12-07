@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+* {
+    /* border: 1px solid black; */
+}
+
+.header1 {
+    display: inline-block;
+    height: 40px;
+}
+
+.header {
+    position: relative;
+    border: 1px solid #C2BEBE;
+}
+
+.rang, .color {
+    margin-left: 25px;
+    color: black;
+}
+
+.left {
+    height: 7px;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.left2 {
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.medium {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.button1 {
+    position: absolute;
+    left: 87.5%;
+    top: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 34px;
+    font-size: 12px;
+    background-color: #326791;
+    color: white;
+    border-radius: 9%;
+    border: none;
+}
+
+.button2 {
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    height: 34px;
+    font-size: 12px;
+    background-color: #326791;
+    color: white;
+    border-radius: 13%;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ctn {
+    position: relative;
+}
+
+.inner-ctn {
+    font-size: 40px;
+    margin: 80px 0 0 440px;
+}
+
+.inner-ctn2 {
+    position: absolute;
+    top: 380%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.first-para {
+    font-family: 'Galada', cursive;
+}
+
+.photo {
+    width: 950px;
+    height: 500px;
+}
+
+.bottom-ctn {
+    height: 1500px;  
+    width: 600px;
+    border: 2px solid yellow;
+    margin-top: 650px;
+    margin-left: 370px;
+}
+
+.year {
+    float: left;
+}
+
+.icons {
+    float: right;
+}
+
+.black {
+    color: black;
+}
+
+.black:hover, .far:hover {
+    background-color: grey;
+}
+
+.black, .far {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.comment {
+    margin-top: 90px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.comment2, .comment3, .comment4, .comment6 {
+    margin-top: 60px;
+}
+
+hr {
+    width: 100px;
+}
+
+.blue {
+    color: blue;
+}
+
+.comment5 {
+    margin-left: 220px;
+}
